@@ -1,3 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "http://192.168.200.10:1313/"
 languageCode = "en-us"
-title = "My Brand New Hugo Site"
+title = "consysta"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "about"
+  url = "/about"
+  weight = 2
+[[menu.main]]
+  name = "news"
+  url = "/news"
+  weight = 3
+[[menu.main]]
+  name = "contact"
+  url = "/contact"
+  weight = 4
